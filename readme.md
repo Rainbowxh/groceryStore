@@ -10,7 +10,8 @@ This is a document to record something interesting.
 ## Javascript
 ---
 1. [JavaScript中的关键点](https://github.com/Rainbowxh/groceryStore/blob/master/javascript/javascript.md):
-1. [JavaScript中的设计模式]:
+1. [JavaScript中的设计模式](https://github.com/Rainbowxh/groceryStore/blob/master/javascript/patternDesign.md)
+1. [ES6语法特性整理](https://github.com/Rainbowxh/groceryStore/blob/master/javascript/es6.md)
 
 ## vue
 ---
