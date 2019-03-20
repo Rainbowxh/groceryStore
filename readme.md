@@ -9,7 +9,7 @@ This is a document to record something interesting.
 
 ## Javascript
 ---
-1. [JavaScript中的关键点]:
+1. [JavaScript中的关键点](https://github.com/Rainbowxh/groceryStore/blob/master/javascript/javascript.md):
 1. [JavaScript中的设计模式]:
 
 ## vue
