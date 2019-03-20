@@ -5,12 +5,17 @@ This is a document to record something interesting.
 ## git
 ---
 1.[git.md](https://github.com/Rainbowxh/groceryStore/blob/master/git/git.md)
-: 按照git官方文档所给出的方式，列出常用的操作步骤。
+: 按照git官方文档，列出常用的操作步骤。
+
+## Javascript
+---
+1. [JavaScript中的关键点]:
+1. [JavaScript中的设计模式]:
 
 ## vue
 ---
 [snake.vue](https://github.com/Rainbowxh/groceryStore/blob/master/vue/snake.vue)
-: 简单的利用es6的方式做出一个贪吃蛇的方式。
+: 贪吃蛇 es6 canvas简单实现
 
 ## python
 ---
