@@ -53,6 +53,32 @@ class Basketball implements ball {
 
 ### 迭代器模式 Iterator
 
+
+#### es5中的迭代器
+```js
+function IteratorInstance(items) {
+  let i = 0;
+  return {
+    next: function() {
+      let done = i >= items.length;
+      let value = !done ? items[i++] : undefined;
+      return {
+        value: value,
+        done: done
+      };
+    }
+  };
+}
+
+let iterator = IteratorInstance(arr);
+iterator.next();
+iterator.next();
+iterator.next();
+iterator.next();
+```
+
+
+
 ### 适配器模式 Adapter
 
 ### 单例模式 Singleton

@@ -13,8 +13,9 @@
 
 ## git
 
-1.[git.md](https://github.com/Rainbowxh/groceryStore/blob/master/git/git.md)
-: 按照 git 官方文档，列出常用的操作步骤。
+1. [git.md](https://github.com/Rainbowxh/groceryStore/blob/master/git/git.md)
+   : 按照 [git 官方文档](https://git-scm.com/book/en/v2)，列出常用的操作步骤。
+1. [history.md]()
 
 ## Javascript
 

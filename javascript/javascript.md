@@ -571,6 +571,12 @@ function Object(){
 
   //Son.prototype = new Father();
   inherit(Son, Father);
+  //也可以以下写法
+  Son.prototype = Object.create(Father.prototype, {
+    constructor: {
+      value: Son
+    }
+  });
   let a1 = new Son();
   ```
 
@@ -733,23 +739,24 @@ function Object(){
       --element p
         --text hello world
     ```
+
 - Node
-    - appenChild()
-    - insertBefore
+  - appenChild()
+  - insertBefore
 - Document
-    - nodeType的值为9
-    - nodeName 为#doucment
-    - document.title
-    - documnet.getElementById("myDiv")
-    - document.getElementByTagName("img")
+  - nodeType 的值为 9
+  - nodeName 为#doucment
+  - document.title
+  - documnet.getElementById("myDiv")
+  - document.getElementByTagName("img")
 - Element
-    - nodeType的值为1
-    - nodeName 为元素的标签的名字
-    - id
-    - title
-    - lang
-    - className
-    - document.createElement
+  - nodeType 的值为 1
+  - nodeName 为元素的标签的名字
+  - id
+  - title
+  - lang
+  - className
+  - document.createElement
 - Text
-    - nodeType = 3
-    - nodeName "#Text"
+  - nodeType = 3
+  - nodeName "#Text"
